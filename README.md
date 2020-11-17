@@ -25,7 +25,8 @@ Since the user will be matched with potentially two different zodiac signs, a co
 
  > ## Phase II
 ## Class Diagram
- > Include a class diagram(s) for each design pattern and a description of the diagram(s). This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper OMT notation (as discussed in the course slides). You may combine multiple design patterns into one diagram if you'd like, but it needs to be clear which portion of the diagram represents which design pattern (either in the diagram or in the description). 
+ > ![zodiac final project](https://user-images.githubusercontent.com/72321122/99348285-17fdc800-284e-11eb-8ac4-8cbecc7dc3e9.png)
+
  
  > ## Phase III
  > You will need to schedule a check-in with the TA (during lab hours or office hours). Your entire team must be present. 
