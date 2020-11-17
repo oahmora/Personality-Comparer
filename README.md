@@ -24,9 +24,19 @@ The zodiac signs will be subclasses of the element classes (Fire, Air, Water, Ea
 Since the user will be matched with potentially two different zodiac signs, a comparison between the two signs should be considered. Furthermore, for a deeper analysis, there may need to be interaction between the classes to further emphasize points of deviation. For this reason, we want to promote loose coupling so that deeper comparisons/analysis can be done.
 
  > ## Phase II
+ 
 ## Class Diagram
  > ![zodiac final project](https://user-images.githubusercontent.com/72321122/99348285-17fdc800-284e-11eb-8ac4-8cbecc7dc3e9.png)
+ >
+ 
+ >Composite:
+The inputs from the client into the Date class are taken into the ActualZodiac class, where a zodiac sign is determined according to the user's birthday. Afterwards, the birthday zodiac sign is compared to the quiz zodiac sign via the compareZodiac function to eventually illustrate the depth of the contrast to the user. The resulting zodiac signs will be output by the displayZodiac function.
 
+ >Mediator: 
+Client input into Question class will be stored within arrays in the Score class. The highest score is then determined by the calculateScore function. The Zodiac class will determine which element class has the highest score from getTotalScore function. The appropriate zodiac will be output by the displayZodiac function based on the total score. 
+
+ >Factory:
+The Water, Air, Fire and Earth element classes each correlate with the questions and score from the Zodiac class for each element. Signs within an element often share characteristics with one another. There are cases where an answer is more attributable to an element as opposed to a sign individually. In such cases, it is more appropriate to increment the group within an element accordingly, and therefore, the scores in each element class will increase by varying amounts.
  
  > ## Phase III
  > You will need to schedule a check-in with the TA (during lab hours or office hours). Your entire team must be present. 
