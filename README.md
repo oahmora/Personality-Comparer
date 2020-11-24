@@ -1,5 +1,5 @@
  
-# Truest Zodiac Sign
+# Astrological Divergence: Truest Zodiac Sign
  
  > Authors:
 \<[Omar Hernandez](http//github.com/ohern017)\>
