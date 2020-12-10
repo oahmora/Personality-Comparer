@@ -6,6 +6,9 @@ SET(CMAKE_CXX_STANDARD 11)
 
 ADD_EXECUTABLE(test
    src/unit_test.cpp
+   src/date.cpp
+   src/actualZodiac.cpp
+   src/createBirthday.cpp
 )
 
 TARGET_LINK_LIBRARIES(test gtest)

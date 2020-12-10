@@ -5,7 +5,7 @@
 #include "gtest/gtest.h"
 #include <iostream>
 
-#include "../src/createBirthday.cpp"
+#include "../header/createBirthday.hpp"
 
 
 TEST(CreateBirthdayTest, CreateBirthdayTest1) {

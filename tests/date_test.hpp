@@ -3,7 +3,7 @@
 
 #include "gtest/gtest.h"
 
-#include "../src/date.cpp"
+#include "../header/date.hpp"
 
 
 TEST(DateTest, DateDefaultConstructor) {
