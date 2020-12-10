@@ -5,7 +5,6 @@
 #include "../header/actualZodiac.hpp"
 #include "../header/createBirthday.hpp"
 
-
 ActualZodiac::ActualZodiac() {
     _birthday = new Date();
     init_zodiac_months();
