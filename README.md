@@ -17,9 +17,9 @@
  >   * The inputs of the project will be the user’s birthday and their quiz responses. The output will be the zodiac sign they get according to the answers they’ve provided to the quiz and also what their zodiac sign is according to their birthday. A further development goal that can be pursued here is an analysis of the contrasts as an additional output.
 > * What are the three design patterns you will be using?
  >   1)  **Composite**:
-Each zodiac sign belongs to a group of elements which are Air, Water, Earth, and Fire. As an example, Aries is in the Fire sign group; such a sign would be designated as a Fire sign. The zodiac signs will inherit characteristics from their corresponding element. This creates a hierarchical structure that appears to be appropriate for the Composite pattern. In addition to that, since the ultimate goal of the program is to output zodiac signs, the elements will really only serve as useful abstract classes that the concrete classes, such as the zodiac signs, will inherit the bulk of their information
- >   2)  **Factory Method**:
-The zodiac signs will be subclasses of the element classes (Fire, Air, Water, Earth). Each of the element classes will contain a number of characteristics that are common with the zodiac signs. After retrieving the characteristics from their superclasses, the zodiac sign class will include the information that sets the specific zodiac sign apart from those of the same element. For this reason, it is believed that the Factory Method design pattern will be a good fit.
+The zodiac signs will create a hierarchical structure that appears to be appropriate for the Composite pattern. In addition to that, since the ultimate goal of the program is to output zodiac signs, the elements will really only serve as useful abstract classes that the concrete classes, such as the zodiac signs, will inherit the bulk of their information
+ >   2)  **Facade**:
+The zodiac signs will contain a number of characteristics that are common with the zodiac signs. After retrieving the characteristics from their superclasses, the zodiac sign class will include the information that sets the specific zodiac sign apart from those of the same element. For this reason, it is believed that the Factory Method design pattern will be a good fit.
  >   3)  **Mediator**:
 Since the user will be matched with potentially two different zodiac signs, a comparison between the two signs should be considered. Furthermore, for a deeper analysis, there may need to be interaction between the classes to further emphasize points of deviation. For this reason, we want to promote loose coupling so that deeper comparisons/analysis can be done.
 
@@ -33,11 +33,11 @@ Since the user will be matched with potentially two different zodiac signs, a co
 The inputs from the client into the Date class are taken into the ActualZodiac class, where a zodiac sign is determined according to the user's birthday. Afterwards, the birthday zodiac sign is compared to the quiz zodiac sign via the compareZodiac function to eventually illustrate the depth of the contrast to the user. The resulting zodiac signs will be output by the displayZodiac function.
 
  >Mediator: 
-Client input into Question class will be stored within arrays in the Score class. The highest score is then determined by the calculateScore function. The Zodiac class will determine which element class has the highest score from getTotalScore function. The appropriate zodiac will be output by the displayZodiac function based on the total score. 
+Client input into Quiz class will be stored within arrays in the Score class. The highest score is then determined by the calculateScore function. The Zodiac class will determine which element class has the highest score from getTotalScore function. The appropriate zodiac will be output by the displayZodiac function based on the total score. 
 
- >Factory:
-The Water, Air, Fire and Earth element classes each correlate with the questions and score from the Zodiac class for each element. Signs within an element often share characteristics with one another. There are cases where an answer is more attributable to an element as opposed to a sign individually. In such cases, it is more appropriate to increment the group within an element accordingly, and therefore, the scores in each element class will increase by varying amounts.
- 
+ >Facade:
+The Quiz class provides an interface to the user and walks them through the entire process without needing for the client to communicate with the questions class. The Quiz class is the composition of all of the questions, allowing for different types of questions grouped together while also making it easy to move through the questions themselves.
+
  > ## Phase III
 
  > ## Final deliverable
