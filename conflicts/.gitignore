@@ -1,6 +1,9 @@
 #executables
 test
+<<<<<<< HEAD
+=======
 main
+>>>>>>> master
 
 #build files
 CMakeCache.txt
@@ -11,6 +14,9 @@ Makefile
 
 #lib files
 lib/
+<<<<<<< HEAD
+=======
 
 #other
 answers.txt
+>>>>>>> master
