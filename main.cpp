@@ -5,10 +5,10 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <fstream>
-using namespace std;
 
 #include "header/questions.hpp"
 
+using namespace std;
 int main(){
 	int numAnswers = 4;
 	

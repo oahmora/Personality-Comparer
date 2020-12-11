@@ -1,6 +1,8 @@
 #include <fstream>
 enum Zodiacs{AQUARIUS, PISCES, ARIES, TAUROS, GEMINI, CANCER, LEO, VIRGO, LIBRA, SAGITTARIUS, CAPRICORN};
 
+using namespace std;
+
 class Question{
 	private:
 		int questionNumber;
