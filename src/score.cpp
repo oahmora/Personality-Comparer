@@ -1,4 +1,4 @@
-#include "Score.hpp"
+#include "header/Score.hpp"
 
 int  calculateScore(const string& filename) {
 
