@@ -1,0 +1,16 @@
+#executables
+test
+main
+
+#build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+
+#lib files
+lib/
+
+#other
+answers.txt
