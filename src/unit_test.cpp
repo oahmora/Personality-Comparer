@@ -2,6 +2,7 @@
 
 #include "../tests/date_test.hpp"
 #include "../tests/createBirthday_test.hpp"
+#include "../tests/actualZodiac_test.hpp"
 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);

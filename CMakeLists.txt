@@ -8,6 +8,8 @@ ADD_EXECUTABLE(test
    src/unit_test.cpp
    src/date.cpp
    src/createBirthday.cpp
+   src/actualZodiac.cpp
+   src/behavior.cpp
 )
 
 TARGET_LINK_LIBRARIES(test gtest)
