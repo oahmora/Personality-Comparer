@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Score.hpp"
+#include "header/Score.hpp"
 #include "gtest/gtest.h"
 
 using namespace std;
