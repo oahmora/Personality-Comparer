@@ -2,6 +2,8 @@
 
 #include "../tests/date_test.hpp"
 #include "../tests/createBirthday_test.hpp"
+#include "../tests/actualZodiac_test.hpp"
+#include "../tests/behavior_test.hpp"
 
 //#include "../tests/score_test.cpp"
 
