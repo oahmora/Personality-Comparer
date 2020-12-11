@@ -1,5 +1,5 @@
  
-# Truest Zodiac Sign
+# Astrological Divergence: Truest Zodiac Sign
  
  > Authors:
 \<[Omar Hernandez](http//github.com/ohern017)\>
@@ -9,7 +9,7 @@
 
 ## Project Description
 
- > * Why is it important or interesting to you?\
+ > * Why is it important or interesting to you?
  >   * It is very easy for one to find their own zodiac sign. No surprises here; all it takes for one to know what their zodiac sign is to know their birthday and find zodiac sign that corresponds to it. However, how well does it define you? That's the question we want ask with this program. What this program will do is quiz the user on their personality and determine what zodiac sign they match the most according to their answers. The program will also contrast the user's zodiac sign with what they got in the quiz, perhaps to raise questions as to the veracity of the very concept itself.
  > * What languages/tools/technologies do you plan to use?
  >   * We plan to use C++ for this project.
@@ -39,23 +39,16 @@ Client input into Question class will be stored within arrays in the Score class
 The Water, Air, Fire and Earth element classes each correlate with the questions and score from the Zodiac class for each element. Signs within an element often share characteristics with one another. There are cases where an answer is more attributable to an element as opposed to a sign individually. In such cases, it is more appropriate to increment the group within an element accordingly, and therefore, the scores in each element class will increase by varying amounts.
  
  > ## Phase III
- > You will need to schedule a check-in with the TA (during lab hours or office hours). Your entire team must be present. 
- > * Before the meeting you should perform a sprint plan like you did in Phase II
- > * In the meeting with your TA you will discuss: 
- >   - How effective your last sprint was (each member should talk about what they did)
- >   - Any tasks that did not get completed last sprint, and how you took them into consideration for this sprint
- >   - Any bugs you've identified and created issues for during the sprint. Do you plan on fixing them in the next sprint or are they lower priority?
- >   - What tasks you are planning for this next sprint.
 
  > ## Final deliverable
- > All group members will give a demo to the TA during lab time. The TA will check the demo and the project GitHub repository and ask a few questions to all the team members. 
- > Before the demo, you should do the following:
- > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
- > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Kanban board. 
+ >
  ## Screenshots
- > Screenshots of the input/output after running your application
+ > ![zodiacoutput1](https://user-images.githubusercontent.com/72321122/101879259-e8d53080-3b45-11eb-9421-269c21e1fdb9.png)
+ >
+ 
  ## Installation/Usage
- > Instructions on installing and running your application
+ > Enter your birthdate in number format (month, day, year). Then, take the Zodiac quiz by answering the 12 multiple choice questions. The answer choices are to be entered as 'a, b, c, or d' for each question. After completing the Zodiac quiz, you will receive a message containing your actual birth zodiac and the one determined by the Zodiac quiz along with some attributes associated with each zodiac sign.
+ 
  ## Testing
- > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+ >Unit-tested using google tests for each class.
  
