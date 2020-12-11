@@ -3,6 +3,8 @@
 #include "../tests/date_test.hpp"
 #include "../tests/createBirthday_test.hpp"
 
+//#include "../tests/score_test.cpp"
+
 #include "../tests/questions_test.hpp"
 
 int main(int argc, char **argv) {
