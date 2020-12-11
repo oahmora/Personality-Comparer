@@ -1,5 +1,60 @@
-This class is more stressful than CS111. Rate how highly you agree with this statement.
-This is null question2.
-This is null question3.
-This is null question4.
-This is null question5.
+Pick the virtue that best relates to you.
+a : Reliable
+b : Witty
+c : Imaginative
+d : Adventurous 
+Pick the vice that best relates to you.
+a : Worrier
+b : Indecisive
+c : Obstinate (Stubborn)
+d : Capricorn
+What do you value more in other people?
+a : Honesty
+b : Faithful
+c : Intelligence
+d : Imaginative
+How do others tend to describe you?
+a : Determined
+b : Charming
+c : Careful
+d : Philosophical
+What do you value most in society?
+a : Utmost Security
+b : Utmost Opportunity
+c : Understanding
+d : Ease of Adapting(i.e. from one occupation to another without too much consequence)
+You get a call from a famous person you respect. What word, if used by the famous person to describe you, would flatter you the most?
+a : Courageous
+b : Practical
+c : Intellectual
+d : Powerful
+Your friends are having an argument. What do you do?
+a : Make an effort to have them stop arguing in the most peaceful way.
+b : Get out of the danger zone.
+c : Overwhelm both and force them to stop.
+d : Pick the side that is right, regardless of whether your closer or not to the side your choosing.
+You are caught lying in front of 100 people. Everybody is now looking at you. What do you do?
+a : Be honest with everybody, admit that you did lie and try to move on.
+b : Deeply apologize to everybody or not say a thing.
+c : Lie again, attempt to convince everybody that you didn't lie.
+d : Attempt to make them laugh.
+You are about to fight the final boss in a video game. What do you do?
+a : Spend a good amount of time preparing/training for it, possibly even never fight it.
+b : Go right in, see how things go, perhaps even with the mindset of losing the first time.
+c : Search up advice as to how to best prepare for it.
+d : Go in, study the boss and adapt to it.
+It is the second coming of Jesus. He comes to personally ask you what vice do you want God to fix for you out of the four listed here. Which one do you pick?
+a : Selfish
+b : Inconsistency
+c : Pessimism
+d : Jealousy
+What best describes the perception of you from your closest friends?
+a : Bossy
+b : Overemotional
+c : Inflexible
+d : Unemotional
+You see your distant future self working as a manager for a successful company. What's most likely to still be an issue or perhaps a new issue you see yourself developing?
+a : Way too idealistic
+b : Is or appears careless
+c : Generally indecisive
+d : Difficult to work with
