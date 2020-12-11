@@ -13,7 +13,11 @@ ADD_EXECUTABLE(test
 )
 
 ADD_EXECUTABLE(main
-   main.cpp 
+   main.cpp
+   src/createBirthday.cpp
+   src/date.cpp
+   src/actualZodiac.cpp
+   src/behavior.cpp 
 )
 
 TARGET_LINK_LIBRARIES(test gtest)
